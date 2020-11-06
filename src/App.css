@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.site__btn {
+  background-color: #19d3ae;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
   color: white;
+  font-weight: bold;
+}
+.app__text {
+  color: #5fc7c7;
 }
 
-.App-link {
-  color: #61dafb;
+.hero__section {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  min-height: 450px;
+  position: relative;
+  z-index: 1;
+}
+.hero__rightBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: #3a4256;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav__menu {
+  float: right;
+}
+
+.nav__menu a {
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+.hero__left h2 {
+  font-size: 55px;
+}
+
+.hero__left p {
+  color: #2c2b2b;
+}
+
+.header__card__sm {
+  background: #1cc7c1;
+  padding: 20px 50px;
+  display: flex;
+  color: white;
+  border-radius: 5px;
+}
+
+.header__card__sm i {
+  margin-right: 20px;
+  font-size: 60px;
+}
+
+.header__card__sm p {
+  margin: 0;
+  font-size: 12px;
+}
+.hero__bottom {
+  position: relative;
+  margin-top: -80px;
+  z-index: 1;
+}
+.service__box img {
+  width: 60px;
+  height: 58px;
+  margin-bottom: 15px;
+}
+.appointment__today {
+  margin-top: 170px;
+  max-height: 289px;
+}
+.doctor__img {
+  position: relative;
+  top: -156px;
+}
+
+.testimonial__box {
+  border: 3px solid #f7f4f4;
+  border-top: 0;
+  padding: 20px;
+}
+
+.testimonial__user {
+  display: flex;
+}
+
+.testimonial__user img {
+  width: 60px;
+}
+
+.blog__box {
+  box-shadow: 0px 0px 1px 0px #868585;
+  padding: 20px;
+}
+
+.contact__area {
+  background-color: #333;
+}
+
+.footer__links a {
+  display: block;
+  color: #313131;
 }
